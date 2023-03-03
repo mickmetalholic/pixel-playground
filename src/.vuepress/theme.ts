@@ -1,6 +1,6 @@
 import { hopeTheme } from 'vuepress-theme-hope';
-import { enNavbar, zhNavbar } from './navbar/index.js';
-import { enSidebar, zhSidebar } from './sidebar/index.js';
+import { zhNavbar } from './navbar/index.js';
+import { zhSidebar } from './sidebar/index.js';
 
 export default hopeTheme({
   hostname: 'https://mister-hope.github.io',
@@ -18,31 +18,31 @@ export default hopeTheme({
     },
   },
   locales: {
+    // '/': {
+    //   navbar: enNavbar,
+    //   sidebar: enSidebar,
+    //   footer: 'Default footer',
+    //   displayFooter: true,
+    //   blog: {
+    //     description: 'A FrontEnd programmer',
+    //     intro: '/intro.html',
+    //   },
+    //   metaLocales: {
+    //     editLink: 'Edit this page on GitHub',
+    //   },
+    // },
     '/': {
-      navbar: enNavbar,
-      sidebar: enSidebar,
-      footer: 'Default footer',
-      displayFooter: true,
-      blog: {
-        description: 'A FrontEnd programmer',
-        intro: '/intro.html',
-      },
-      metaLocales: {
-        editLink: 'Edit this page on GitHub',
-      },
-    },
-    '/zh/': {
       navbar: zhNavbar,
       sidebar: zhSidebar,
-      footer: '默认页脚',
-      displayFooter: true,
-      blog: {
-        description: '一个前端开发者',
-        intro: '/zh/intro.html',
-      },
-      metaLocales: {
-        editLink: '在 GitHub 上编辑此页',
-      },
+      // footer: '默认页脚',
+      // displayFooter: true,
+      // blog: {
+      //   description: '一个前端开发者',
+      //   intro: '/zh/intro.html',
+      // },
+      // metaLocales: {
+      //   editLink: '在 GitHub 上编辑此页',
+      // },
     },
   },
 

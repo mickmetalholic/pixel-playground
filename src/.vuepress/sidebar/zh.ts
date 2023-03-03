@@ -1,12 +1,12 @@
 import { sidebar } from 'vuepress-theme-hope';
 
 export const zhSidebar = sidebar({
-  '/zh/': [
+  '/': [
     '',
     {
-      text: '文章',
+      text: 'PC游戏',
       icon: 'note',
-      prefix: 'posts/',
+      prefix: 'pc-game/',
       children: 'structure',
     }
   ],

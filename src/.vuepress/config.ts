@@ -5,12 +5,12 @@ export default defineUserConfig({
   base: '/',
 
   locales: {
+    // '/': {
+    //   lang: 'en-US',
+    //   title: 'Pixel Playground',
+    //   description: 'Pixel Playground',
+    // },
     '/': {
-      lang: 'en-US',
-      title: 'Pixel Playground',
-      description: 'Pixel Playground',
-    },
-    '/zh/': {
       lang: 'zh-CN',
       title: 'Pixel Playground',
       description: 'Pixel Playground',

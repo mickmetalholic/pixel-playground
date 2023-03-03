@@ -1,10 +1,10 @@
 import { navbar } from 'vuepress-theme-hope';
 
 export const zhNavbar = navbar([
-  '/zh/',
+  '/',
   {
-    text: '文章',
-    icon: 'edit',
-    link: '/zh/posts/',
+    text: 'PC游戏',
+    icon: 'note',
+    link: '/pc-game/',
   },
 ]);

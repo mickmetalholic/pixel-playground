@@ -12,8 +12,8 @@ export default defineUserConfig({
     // },
     '/': {
       lang: 'zh-CN',
-      title: 'Pixel Playground',
-      description: 'Pixel Playground',
+      title: '像素广场',
+      description: '像素广场',
     },
   },
 

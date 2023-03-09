@@ -1,0 +1,1 @@
+import{_ as a,V as t,W as s,X as e,Y as c}from"./framework-7469a2ce.js";const r={},o=e("h1",{id:"stadia证明了云游戏已死吗",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#stadia证明了云游戏已死吗","aria-hidden":"true"},"#"),c(" Stadia证明了云游戏已死吗？")],-1),_=[o];function d(n,i){return t(),s("div",null,_)}const l=a(r,[["render",d],["__file","2022-02-27.html.vue"]]);export{l as default};

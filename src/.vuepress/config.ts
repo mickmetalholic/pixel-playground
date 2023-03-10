@@ -19,5 +19,23 @@ export default defineUserConfig({
 
   theme,
 
+  head: [
+    [
+      'script',
+      {
+        async: true,
+        src: 'https://www.googletagmanager.com/gtag/js?id=G-X1HVQXLDC3',
+      }
+    ],
+    [
+      'script',
+      {},
+      `window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-X1HVQXLDC3');`
+    ]
+  ],
+
   // shouldPrefetch: false,
 });
